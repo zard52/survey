@@ -1,0 +1,64 @@
+[
+  {
+    "type":"checkboxes",
+    "required":1,
+    "question": "Please check the symptoms you are currently experiencing:",
+    "option": [
+      "Fever",
+      "Cough",
+      "Body pains",
+      "Shortness of breath",
+      "Diarrhea",
+      "Loss of taste or smell",
+      "Rash on skin",
+      "Aches and pains",
+      "None"
+    ]
+  },
+  {
+    "type": "follow-up question",
+    "question": "Do you have fever?",
+    "followup": "Since when?"
+  },
+  {
+    "type": "follow-up questions",
+    "question": "Do you travel within the last two weeks?",
+    "followup": ["When","Where"]
+  },
+  {
+    "type": "checkboxes",
+    "required":1,
+    "question": "Is there anyone at home with you who has COVID19 symptoms?",
+    "option": [
+      "Fever",
+      "Colds",
+      "Dry Cough",
+      "Sore throat",
+      "Diarrhea",
+      "Loss of taste or smell",
+      "Rash on skin",
+      "Aches and pains",
+      "None"
+    ]
+  },
+  {
+    "type": "short-answer",
+    "required":1,
+    "question": "Temperature "
+  },
+  {
+    "type": "true or false",
+    "required":1,
+    "question": "Is there a reported COVID-19 suspect/ positive from your barangay?"
+  },
+  {
+    "type": "true or false",
+    "required":1,
+    "question": "Is there a reported COVID-19 suspect/ positive from your household?"
+  },
+  {
+    "type": "checkbox",
+    "required":1,
+    "question": "I hereby certify that the information given above are true, correct and complete."
+  }
+]
